@@ -1,0 +1,134 @@
+/* Main */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&display=swap');
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Serif', serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* header */
+header{
+    background-image: url(/assets/background/batatas.jpg);
+    height: 800px;
+    background-size: cover;
+}
+.headerContainer{
+    text-align: center;
+    background-color: #161a1b;
+}
+
+.liNav{
+    display: inline-block;
+    font-size: 35px;
+    padding: 20px;
+    font-weight: bold;
+}
+.liNav:hover{
+    color: black;
+}
+
+.burger{
+    filter: invert(100%);
+    margin-top: 10px;
+    height: 80px;
+}
+.siteTitle{
+    font-size: 50px;
+}
+.siteDesc{
+    padding: 10px;
+    font-size: 24px;
+}
+
+/* footer */
+
+footer{
+    padding: 40px;
+    text-align: center;
+    background-color: #161a1b;
+}
+.antonio{
+    height: 350px;
+}
+.contentContainer{
+    margin: 30px;
+    display: inline-block;
+    max-width: 20%;
+    text-align: left;
+}
+.contentTitle{
+    color: white;
+    margin-bottom: 20px;
+
+
+}
+.contentText{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Burger Footer */
+.salada{
+    height: 400px;
+}
+
+.mb{
+    margin-bottom: 150px;
+}
+
+.contato:hover{
+    color: black;
+}
+
+@media screen and (max-width: 500px) {
+    header{
+        margin: 0;
+        background-color: #161a1b ;
+        background-image: unset;
+    }
+    .liNav{
+        margin: 15px;
+        padding: 10px;
+        background-color: black;
+        display: block;
+        font-size: 35px;
+        padding: 20px;
+        font-weight: bold;
+    }
+
+    footer{
+        padding: 15px;
+        text-align: center;
+        background-color: #161a1b;
+    }
+    .antonio{
+        width: 80%;
+    }
+    .contentContainer{
+        margin: 10px;
+        display: block;
+        max-width: 100%;
+        text-align: left;
+    }
+    .contentTitle{
+        color: white;
+        margin-bottom: 20px;
+    
+    
+    }
+    .contentText{
+        color: white;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .salada{
+        height: 200px;
+    }
+}
