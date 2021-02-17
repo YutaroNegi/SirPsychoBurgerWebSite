@@ -15,7 +15,7 @@ a{
 /* header */
 header{
     background-image: url(/assets/background/batatas.jpg);
-    height: "800px";
+    height: 800px;
     background-size: cover;
 }
 .headerContainer{
@@ -54,7 +54,7 @@ footer{
     background-color: #161a1b;
 }
 .antonio{
-    height: "350px";
+    height: 350px;
 }
 .contentContainer{
     margin: 30px;
